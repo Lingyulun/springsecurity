@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch01_web_xml_helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch02_mvc_code_helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch03-mvc-code-login-logout-userdetailservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch04-mvc-code-authentication-chain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch05_mvc_code_authentication_chain_ajax" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06_mvc_code_session" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07_mvc_code_stateless_jwt" charset="UTF-8" />
+  </component>
+</project>

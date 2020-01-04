@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch05_mvc_code_authentication_chain_ajax" />
+        <module name="ch01_web_xml_helloworld" />
+        <module name="ch04-mvc-code-authentication-chain" />
+        <module name="ch02_mvc_code_helloworld" />
+        <module name="ch07_mvc_code_stateless_jwt" />
+        <module name="ch06_mvc_code_session" />
+        <module name="ch03-mvc-code-login-logout-userdetailservice" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ch02_mvc_code_helloworld:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ch02_mvc_code_helloworld_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ch02_mvc_code_helloworld" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.2.0.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.1" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:5.0.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:5.0.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:5.0.12.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ch02_mvc_code_helloworld/web/Web" />
+    </root>
+  </artifact>
+</component>

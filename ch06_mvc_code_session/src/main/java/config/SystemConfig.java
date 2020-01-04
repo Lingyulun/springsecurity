@@ -1,0 +1,26 @@
+package config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+/**
+ * @author 挥霍的人生
+ */
+@Configuration
+public class SystemConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
+
+    @Override
+    protected Class<?>[] getRootConfigClasses() {
+        return new Class[]{AppConfig.class};
+    }
+
+    @Override
+    protected Class<?>[] getServletConfigClasses() {
+        return new Class[]{MvcConfig.class};
+    }
+    @Override
+    protected String[] getServletMappings() {
+        return new String[]{"/"};
+    }
+}
